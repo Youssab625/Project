@@ -26,11 +26,16 @@
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 47%;
-  -webkit-border-radius: 47%;
-  -moz-border-radius: 47%;
-  -ms-border-radius: 47%;
-  -o-border-radius: 47%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+@media only screen and (max-width: 760px){
+  #topBtn{
+    bottom: 60px;
+  }
 }
 
 #topBtn:hover {
@@ -137,14 +142,14 @@ body{
   -ms-transform: scale(1.07);
   -o-transform: scale(1.07);
 }
-.serv i{
+.serv svg{
   transition: 0.5s ease-in-out transform;
   -webkit-transition: 0.5s ease-in-out transform;
   -moz-transition: 0.5s ease-in-out transform;
   -ms-transition: 0.5s ease-in-out transform;
   -o-transition: 5s ease transform;
 }
-.serv i:hover{
+.serv svg:hover{
   transform: rotate(1turn);
   -webkit-transform: rotate(1turn);
   -moz-transform: rotate(1turn);
@@ -216,14 +221,14 @@ body{
 /*--------------------------Social-------------------------------*/
 .social{
   background-color:#f8f9fa ;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .social p{
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-.icons i{
+.icons svg{
   width: 100px;
   transition: 0.5s ease-in-out transform;
   -webkit-transition: 0.5s ease-in-out transform;
@@ -231,7 +236,7 @@ body{
   -ms-transition: 0.5s ease-in-out transform;
   -o-transition: 0.5s ease-in-out transform;
 }
-.icons i:hover{
+.icons svg:hover{
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
